@@ -18,21 +18,21 @@ body{
     font-weight: 600;
     opacity: 0.7;
 }
-/* navbar section starts */
-.nav-content{
+
+.nav-item{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
 }
-.nav-content h3{
+.nav-item h3{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
 }
-.nav-content button{
+.nav-item button{
     width: 228px;
     height: 58px;
     border: 1px solid rgb(13, 19, 33);
@@ -43,10 +43,9 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
-/* navbar section ends */
-/* banner section starts */
-.banner-container{
-    width: 1820px;
+
+.banner-1{
+    width: 1300px;
     height: 652px;
     margin: 0 auto;
     margin-top: 35px;
@@ -54,30 +53,30 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner-content{
+.banner-c{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.banner-content img{
+.banner-c img{
     margin-bottom: 35px;
 }
-.banner-content h1{
+.banner-c h1{
     margin-bottom: 35px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 48px;
     font-weight: 800;
 }
-.banner-content p{
+.banner-c p{
     margin-bottom: 35px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
 }
-.banner-content button{
+.banner-c button{
     position: static;
     width: 208px;
     height: 66px;
@@ -93,8 +92,6 @@ body{
     font-family: Azeret Mono;
     font-weight: 600;
 }
-/* banner section ends */
-/* main section starts */
 .development-container{
     width: 1140px;
     height: 1393px;
@@ -168,7 +165,7 @@ body{
     font-weight: 400;
     margin-bottom: 30px;
 }
-/* video section starts */
+
 .video-container{
     width: 1140px;
     height: 775px;
@@ -209,24 +206,23 @@ body{
     margin-left: 30px;
     margin-top: 30px;
 }
-/* video section ends */
 
-/* card section starts */
+
 .card-container{
     width: 1140px;
     height: 460px;
     margin: 0 auto;
     margin-top: 50px;
 }
-.head1{
-    color: rgb(13, 19, 33);
+.target{
+    color: rgb(10, 30, 78);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     margin-left: 400px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
-.para1{
+.goal{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -249,38 +245,38 @@ body{
     background: rgba(255, 76, 30, 0.05);
     margin-right: 20px;
 }
-.card-details1 img{
+.card-itema img{
    margin-top: 80px;
    margin-left: 30px;
 }
-.card-details1 h1, p, u{
+.card-itema h1, p, u{
     margin-left: 30px;
 }
-.card-details2{
+.card-itemb{
     width: 1100px;
     height: 400px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
     margin-right: 20px;
 }
-.card-details2 img{
+.card-itemb img{
     margin-top: 80px;
     margin-left: 30px;
 }
-.card-details2 h1, p, u{
+.card-itemb h1, p, u{
     margin-left: 30px;
 }
-.card-details3{
+.card-itemc{
     width: 1100px;
     height: 400px;
     border-radius: 16px;
 background: rgba(255, 223, 0, 0.05);
 }
-.card-details3 img{
+.card-itemc img{
     margin-top: 80px;
     margin-left: 30px;
  }
-.card-details3 h1, p, u{
+.card-itemc h1, p, u{
     margin-left: 30px;
 }
 .u-btn{
@@ -290,12 +286,7 @@ background: rgba(255, 223, 0, 0.05);
     font-weight: 700;
 }
 
-/* card section ends */
-
-/* main section ends */
-
-/* footer section starts */
-.comment-container{
+.comma{
     width: 1140px;
     height: 313px;
     display: flex;
@@ -312,14 +303,14 @@ background: rgba(255, 223, 0, 0.05);
     margin-bottom: 50px;        
 }
 
-.comment-content h1{
+.commb h1{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 700;
     text-align: center;
 }
-.comment-content p{
+.commb p{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -347,19 +338,22 @@ background: rgba(255, 223, 0, 0.05);
     font-size: 20px;
     font-weight: 600;
 }
-#end-container{
-    width: 1440px;
+#end-item{
+    width: 1200px;
     height: 100px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
-    align-items: center;
+    align-items:center;
 }
-.end-content{
+.ending h4,h5{
+    margin-left: 25px;
+}
+
+.final{
     margin-top: 50px;
 }
-/* footer section ends */
+
